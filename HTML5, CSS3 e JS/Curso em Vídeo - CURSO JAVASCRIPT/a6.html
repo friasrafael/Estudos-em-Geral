@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font: normal 15pt IArial;
+        }
+        h1{
+            font: normal 40pt Impact;
+            color: rgb(140, 0, 255)
+        }
+            </style>
+</head>
+<body>
+    <h1>VIDA FIT</h1>
+    <script>
+        var nome = window.prompt('Qual é seu nome?')
+        var peso = Number(window.prompt('Quanto você pesa(Kg)?'))
+        var altura = Number(window.prompt('Qual é a sua altura(m)?'))
+        imc = peso / (altura*altura)
+        document.write(`Olá, ${nome.toUpperCase()}. Seja bem vindo!</br>`)
+        document.write('Para calcularmos o seu IMC dividimos o seu peso pela sua altura ao quadrado.</br> ')
+        document.write(`Sabendo que sua altura é ${altura} e seu peso é ${peso}, conseguimos chegar ao resultado de ${imc}.`)
+    </script>
+</body>
+</html>

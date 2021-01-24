@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+
+		public static void main(String[]arg) {
+			
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.println("Quantas divisões você quer fazer?");
+			int N = sc.nextInt();
+			int n1 = 0;
+			int n2 = 0;
+			int div = 0;
+			
+			for (int x = 1; x <= N + 1; x++) {
+				
+				System.out.printf("Digite o numerador e o denominador da %dª divisão: %n", x);
+				
+			}
+			
+			
+			
+			sc.close();
+		}
+}

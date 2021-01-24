@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+		public static void main(String[]arg) {
+			
+			Scanner sc = new Scanner(System.in);
+			
+			int minutos;
+			double valor;
+			
+			System.out.println("Digite a quantidade de minutos totais utilizados no mês");
+			minutos = sc.nextInt();
+			
+			if (minutos <= 100) {
+				valor = 50;
+				System.out.printf("Você utilizou %d minutos. O valor da conta é de %.2f", minutos, valor);
+			} else {
+				valor = 50 + ((minutos - 100)*2);
+				System.out.printf("Você utilizou %d minutos. O valor da conta é de %.2f", minutos, valor);
+			}
+		}
+}

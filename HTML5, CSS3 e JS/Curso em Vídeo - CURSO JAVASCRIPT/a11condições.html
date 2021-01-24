@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: royalblue;
+            color:seashell;
+            font: normal 15pt arial;
+        }
+        h1 {
+            background-color: black;
+            color:rgb(192, 226, 43);
+            font: normal 20pt impact;
+        }
+        p1 {
+            color: rgb(255, 255, 255);
+            width: 350px;
+            font: normal 15pt arial;
+        }
+        p2 {
+            color: rgb(255, 255, 255);
+            width: 350px;
+            font: normal 12pt arial;
+        }
+        p3 {
+            color: rgb(255, 255, 255);
+            width: 400px;
+            font: normal 12pt arial;
+        }
+        p4 {
+            color: rgb(255, 255, 255);
+            width: 350px;
+            font: normal 12pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Site do DETRAM</h1>
+    Velocidade do carro: <input type="number" name="vel" id="vel"> Km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id= "res"></div>
+
+    <script>
+        function calcular(){
+        var velcar = document.querySelector('input#vel')
+        var res = document.querySelector('div#res')
+        var velocidade = Number(velcar.value)
+        res.innerHTML = `</br><p1><b>Sua velocidade é de <strong>${velocidade}Km/h</strong></p>`
+            if (velocidade > 60) {
+                res.innerHTML += '<p3><b>Você está acima do limite de velocidade permitido. Reduza!</p>'
+            } else {
+                res.innerHTML += '<p4><b>Você está dentro do limite de velocidade permitido.</p>'
+            }
+        res.innerHTML += '<p2><b>Dirija sempre com cinto de segurança!</b></p>'
+        }
+    </script>    
+</body>
+</html>

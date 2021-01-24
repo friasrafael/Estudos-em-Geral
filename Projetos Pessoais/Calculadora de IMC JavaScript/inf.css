@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(226, 204, 226);
+}
+
+nav#menu ul {
+    background-color: rgb(0, 43, 107);
+    width: 1223px;
+    height: 47px;
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    margin: -50px 0px 0px -20px;
+    text-align: right;
+    border-radius: 5px;
+    box-shadow: black 2px 2px 2px;
+}
+
+nav#menu li{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font: normal 15px fantasy;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+   
+    
+}
+
+a{
+        color: white;
+        text-decoration: none;
+}
+
+nav#menu li:hover {
+    background-color: rgb(62, 73, 177);
+    transition: .5s;
+}
+
+div#interface {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    font: 15pt arial;
+    font-weight: 10px;
+    width: 1100px;
+    margin: 50px auto auto auto;
+    padding: 20px;
+    box-shadow: black 0px 0px 4px;
+}
+
+h1 {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+div#logo img{
+    width: 700px;
+}
+
+div#logo {
+    text-align: center;
+}
+
+img#lll {
+    margin: 0px 0px 0px -400px;
+    padding: 5px;
+    position: absolute;
+    width: 250px;
+
+}
+
+footer {
+    text-align: center;
+}
+
+a#ancora {
+    font: normal 15px arial;
+    color: black;
+    text-transform: uppercase;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando em Casa</title>
+    <link rel="stylesheet" href="treinando.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <img id= "lll" src="logo2.png" alt="">
+            <li><a href="imc.html">Calculadora de IMC</a></li>
+            <li><a href="informacoes.html">Mais informações</a></li>
+            <li><a href="faleconosco.html">Fale Conosco</a></li>
+        
+        </ul>
+        </nav>
+
+<div id= "interface">
+    É importante que a prática de exercício físico seja acompanhada por um profissional qualificado. Para <strong>treinamentos personalizados e aceleração de resultado</strong>, clique em <a id= "link" href="faleconosco.html"><b>fale conosco</b></a> no menu e entre em contato com os melhores profissionais.</br></br>
+    
+    <h1>Treinando em CASA</h1>
+    <div id= "caixa">
+
+        Qual é a sua intenção com o treinamento? 
+        <select id="objetivo" onchange="update()">
+            <option value="perderPeso">Perder Peso</option> 
+            <option value="melhorarSaude" selected>Melhorar Minha Saúde</option>
+            <option value="ganharMassa">Ganhar Massa Muscular</option>
+        </select>
+
+        </br></br>Quantas vezes por semana você costuma treinar?
+        <select name="treino" id="treino">
+            <option value="1ou2">1 ou 2 vezes</option> 
+            <option value="3ou4" selected>3 ou 4 vezes</option>
+            <option value="mais4">Mais de 4 vezes</option>
+        </select>
+
+        <div id= "resultado">
+        </br> Meu Treino: </br>
+            <input type="text" id="value">
+        </div>
+
+       
+
+    </div>
+</div>
+    <script src="treinando.js"></script>
+    <footer>&copy;Copyright 2020 - by Rafael Frias </br> <a id="ancora" href="https://www.instagram.com/vidafit.hoje/?hl=pt-br">Instagram</a> </footer>
+</body>
+</html>

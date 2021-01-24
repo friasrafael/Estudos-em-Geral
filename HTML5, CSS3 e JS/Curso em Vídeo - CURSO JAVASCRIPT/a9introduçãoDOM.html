@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com DOM</title>
+    <style>
+        body {
+            background-color: royalblue;
+            color: rgb(255, 255, 255);
+            font: normal 20pt Times;
+        }
+    </style>
+</head>
+<body>
+    <h1>iniciando estudos com o DOM</h1>
+    <p>Aqui vai o parágrafo</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em <strong>JavaScript</strong></p>
+    <div class="msg">Primeiros Passos</div>
+        <script>
+            /*var p1 = window.document.getElementsByTagName('h1')[0]
+            window.document.write('Clique no Link: ' + p1.innerText)    
+            var divineia = window.document.getElementsById('msg')*/
+            var divineia = window.document.querySelector('div.msg')     
+            divineia.style.color = 'red'
+            divineia.style.background = 'white'           
+        </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[]arg) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double largura, comprimento, valor, area;
+		System.out.println("Informe a largura do terreno em metros:");
+		largura = sc.nextDouble();
+		
+		System.out.println("Informe o comprimento do terreno em metros:");
+		comprimento = sc.nextDouble();
+		
+		System.out.println("Informe o valor do m² do terreno em reais:");
+		valor = sc.nextDouble();
+		
+		System.out.printf("%nDados do terreno: %nLargura: %.1f m %nComprimento: %.1f m %nValor: R$%.2f/m² %n%n", largura, comprimento, valor);
+		
+		area = largura*comprimento;
+		
+		System.out.printf("A área do terreno é de %.2f m²", area);
+		
+		
+		sc.close();
+	}
+}

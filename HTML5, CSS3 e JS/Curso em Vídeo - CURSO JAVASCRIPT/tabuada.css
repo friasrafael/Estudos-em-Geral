@@ -1,0 +1,33 @@
+ 
+        body{
+            background-color: blue;
+            color: white;
+            font: normal 10pt arial;
+        }
+
+        h1{
+            color:rgb(255, 255, 255);
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+
+        }
+
+        footer{
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+        }
+        
+        section#caixa{
+            background-color: blanchedalmond;
+            color: black;
+            font: normal 10pt arial;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px black;
+            padding: 50px;
+            margin: auto;
+            width: 500px;
+        }
+
+        div#botao{
+            text-align: center;
+        }

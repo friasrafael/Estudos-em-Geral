@@ -1,0 +1,11 @@
+
+public class Main {
+	
+	public static void main(String[]arg) {
+		
+		double x = 3.0;
+		double y = 4.4;
+		double z = -5.0;
+		double A, B, C;
+	}
+}

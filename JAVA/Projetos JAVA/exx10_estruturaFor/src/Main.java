@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[]arg) {
+		
+		// Estrutura for: for (início; condição; incremento) {}
+		//Início: Será lido somente na primeira vez.
+		//Condição: Enquanto V ele volta e lê de novo, quando for F ele pula a execução do programa.
+		//Incremento: Executa toda vez depois de voltar
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Quantos números você quer somar?");
+		int n = sc.nextInt();
+		int soma = 0;
+		
+		System.out.printf("Digite %d números: %n", n);
+		for (int i = 1; i <= n; i++ ) {
+			int x = sc.nextInt();
+			soma += x;
+			
+		}
+		
+		System.out.println("Os valores somados deram: " + soma);
+		
+		sc.close();
+	}
+	
+}

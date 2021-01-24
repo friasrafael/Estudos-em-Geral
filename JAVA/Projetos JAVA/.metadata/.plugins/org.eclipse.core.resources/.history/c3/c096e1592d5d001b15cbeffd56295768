@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[]args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.printf("Qual será a String Original?   ");
+		String original = sc.nextLine(); //Aconselhado testar com a String original = " Rafael "
+		
+		String minuscula = original.toLowerCase();		
+		String maiuscula = original.toUpperCase();		
+		String semEspacos= original.trim();		
+		String subString = original.substring(2);		
+		String corte = original.substring(2, 5);		
+		String trocaCaracter = original.replace("Rafael", "Renato");
+		int i = original.indexOf("Ra");
+	
+		
+		System.out.println("A String Original foi definidada como: -" + original + "-");
+		System.out.println("String Original em minúsculo: -" + minuscula + "-");
+		System.out.println("String Original em maiúsculo: -" + maiuscula + "-");
+		System.out.println("String Original em trim: -" + semEspacos + "-");
+		System.out.println("String Original cortada com parâmetro de início: -" + subString + "-");
+		System.out.println("String Original cortada com parâmetro de início e fim: -" + corte + "-");
+		System.out.println("Substuindo palavras da String Original : -" + trocaCaracter +"-");
+		System.out.println("Posição de "Ra" na String Original: -" + i + '-');
+		
+		
+		
+		
+		sc.close();
+	}
+}

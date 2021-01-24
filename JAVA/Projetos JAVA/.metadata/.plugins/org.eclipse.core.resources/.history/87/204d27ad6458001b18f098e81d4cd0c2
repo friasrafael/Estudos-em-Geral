@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[]arg) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int inicio, fim;
+		
+		System.out.println("Quando você começou a jogar?");
+		inico = sc.nextInt();
+		
+		System.out.println("Quando você parou de jogar?");
+		fim = sc.nextInt();
+		sc.close();
+	}
+}
