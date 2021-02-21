@@ -35,6 +35,5 @@ public class Main {
 		} else {
 			System.out.println("As áreas dos dois triângulos são iguais");
 		}
-
 	}
 }
