@@ -30,6 +30,7 @@ public class Program {
 		System.out.println();
 		System.out.println("Updated Data: " + product);
 		System.out.println("Enter the number of procut to be removed in stock : ");
+		
 		quantity = sc.nextInt();
 		product.removeProducts(quantity);
 		System.out.println();
