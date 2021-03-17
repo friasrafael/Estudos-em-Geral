@@ -9,5 +9,4 @@ public class product {
 			public double Valor() {
 				return quantity * pryce;
 			}
-				
 }
