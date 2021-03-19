@@ -30,7 +30,7 @@ public class Program {
 		
 		double avg = sum/n;
 		
-		System.out.printf("MÉDIA DOS VALORES: %.4f%n", avg);
+		System.out.printf("MÉDIA DOS VALORES: %.2f%n", avg);
 		
 		sc.close();
 	}
