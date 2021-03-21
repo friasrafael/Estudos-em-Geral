@@ -1,2 +1,3 @@
 # Estudos em Geral
- Projetos criados nas aulas e cursos
+ Pasta de estudos em geral.
+ Contém códigos, projetos e anotações dos cursos, faculdade e pesquisas feitas por mim.
