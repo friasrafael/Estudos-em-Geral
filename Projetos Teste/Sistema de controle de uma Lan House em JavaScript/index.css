@@ -1,0 +1,88 @@
+.hidden {
+    display: none;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    width: auto;
+}
+
+div#interface{
+    background-color: rgb(255, 255, 255);
+    font: 15pt arial; 
+    width: 1100px;/*tamanho*/
+    margin: 50px auto auto auto; /*margem*/
+    padding: 20px; /*espaçamento*/
+    box-shadow: black 0px 0px 4px; /*sombra*/
+}
+
+nav#menu ul { /*menu*/
+    background-color: rgb(0, 43, 107);
+    width: 1100px; /*largura do menu*/
+    height: 47px; /*altura*/
+    text-transform: uppercase; /*transformando toda a lista para maiúscula*/
+    position: absolute; /*escolher a exata posição do obejto*/
+    margin: -50px 0px 0px 332px; /*coordenadas para posicionar o objeto*/
+    text-align: center; /*texto alinhado na direita*/
+    border-radius: 5px; /*arrendondar o obejeto*/
+    box-shadow: black 2px 2px 2px; /*sombra em volta do objeto*/
+}
+
+nav#menu li{ /*elementos da lista*/
+    display: inline-block; /*deixa os objetos um ao lado do outro*/
+    color: rgb(255, 255, 255);
+    font: normal 15px fantasy;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+a { /*âncora*/
+    color: white;
+    text-decoration: none; /*sem decoração*/
+}
+
+nav#menu li:hover {/*mexer nos elementos da lista quando passar o mouse em cima*/
+    background-color: rgb(62, 73, 177); /*mude para essa cor quando passar o mouse*/
+    transition: .5s; /*tempo de transição para mudança do background-color*/
+}
+
+
+h1 { /*título*/
+    padding: 20px;
+    width: 402px;
+    background-color: rgb(39, 12, 61);
+    color:#e4e4e4;
+    font: normal 25pt arial;
+    box-shadow: black 0px 0px 4px;  
+    margin:auto;
+}
+
+h1#controle { /*título controle*/
+    padding: 20px;
+    width: 402px;
+    background-color: white;
+    color:#000000;
+    font: normal 25pt arial;
+    box-shadow: black 0px 0px 0px;  
+}
+
+div#caixa { /*caixa de login*/
+    background-color: rgb(237, 238, 237);
+    color: black;
+    width: 400px;
+    padding: 20px;
+    height: auto;
+    margin: auto; /*centralizar*/
+    box-shadow: black 0px 0px 4px;
+}   
+
+footer { /*rodopé*/
+    color:antiquewhite;
+    text-align: center; /*alinhamento do rodapé no centro*/
+}
+
+
+

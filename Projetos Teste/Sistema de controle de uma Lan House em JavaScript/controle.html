@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Internauta Lan House</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="controle.html">Controle</a></li>
+            <li><a href="faleconosco.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
+
+    <div id="interface">
+
+        <h1>O Internauta Lan House</h1>
+        <div id= 'caixa'> 
+            Login: <input type="text" id="txlogin"><br>
+            Senha: <input type="text" id="txsenha">
+            <button onclick="mostra()">Entrar</button> </br></br>
+            login: 0001  </br>
+            senha: 12345
+        </div>
+
+     
+
+        <h1 id='controle'> Controle das Máquinas </h1>
+
+        <div class="hidden" id='ma'>
+
+            <h2>Máquina 1<br></h2>
+            Horas <input type="number" name="txh1" id="txh1"> </br>
+            Minutos <input type="number" name="txm1" id="txm1"> </br>
+            Segundos <input type="number" name="txs1" id="txs1">
+
+            <div class="max-width">
+                <button onclick="start1();" class="bg-green">Iniciar</button>
+                <button onclick="continue1();" class="bg-green">Continuar</button>
+                <button onclick="pause1();" class="bg-yellow">Pausar</button>
+                <button onclick="stop1();" class="bg-red">Parar</button>
+            </div>
+
+            <h2 id="counter1">00:00:00</h2>
+
+            <h2>Máquina 2<br></h2>
+            Horas <input type="number" name="txh2" id="txh2"> </br>
+            Minutos <input type="number" name="txm2" id="txm2"> </br>
+            Segundos <input type="number" name="txs2" id="txs2">
+
+            <div class="max-width">
+                <button onclick="start2();" class="bg-green">Iniciar</button>
+                <button onclick="continue2();" class="bg-green">Continuar</button>
+                <button onclick="pause2();" class="bg-yellow">Pausar</button>
+                <button onclick="stop2();" class="bg-red">Parar</button>
+            </div>
+
+            <h2 id="counter2">00:00:00</h2>
+
+            <h2>Máquina 3<br></h2>
+            Horas <input type="number" name="txh3" id="txh3"> </br>
+            Minutos <input type="number" name="txm3" id="txm3"> </br>
+            Segundos <input type="number" name="txs3" id="txs3">
+
+            <div class="max-width">
+                <button onclick="start3();" class="bg-green">Iniciar</button>
+                <button onclick="continue3();" class="bg-green">Continuar</button>
+                <button onclick="pause3();" class="bg-yellow">Pausar</button>
+                <button onclick="stop3();" class="bg-red">Parar</button>
+            </div>
+
+            <h2 id="counter3">00:00:00</h2>
+
+            <h2>Máquina 4<br></h2>
+            Horas <input type="number" name="txh4" id="txh4"> </br>
+            Minutos <input type="number" name="txm4" id="txm4"> </br>
+            Segundos <input type="number" name="txs4" id="txs4">
+
+            <div class="max-width">
+                <button onclick="start4();" class="bg-green">Iniciar</button>
+                <button onclick="continue4();" class="bg-green">Continuar</button>
+                <button onclick="pause4();" class="bg-yellow">Pausar</button>
+                <button onclick="stop4();" class="bg-red">Parar</button>
+            </div>
+
+            <h2 id="counter4">00:00:00</h2>
+        </div>
+    
+    </div>
+    <footer>&copy;Copyright 2020 - by Rafael Frias</br></footer>
+    <script src="controle.js"></script>
+</body>
+
+</html>>

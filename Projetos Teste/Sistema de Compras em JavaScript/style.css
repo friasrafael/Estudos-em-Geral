@@ -1,0 +1,62 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#produtos {
+	background-color: black;
+	position: absolute;
+	box-shadow:  black 0px 2px 8px;
+	width: 500px;
+	margin-top: 5%;
+	margin-left: 1%;
+}
+
+#produtos td {
+	background-color: rgb(255, 255, 255);
+	margin: 0px;
+	padding: 5px;
+	border-width: 2px;
+	border-style: ;
+	border-color: black;
+}
+
+td.tipo {
+	width: 100px;
+}
+
+td.produtos {
+	width: 200px;
+}
+
+td.preco {
+	width: 80px;
+}
+
+#quantidade {
+	position: absolute;
+	box-shadow:  black 0px 2px 8px;
+	width: 150px;
+	height: 200px;
+	margin-top: 5%;
+	margin-left: 40%;
+	
+}
+
+#pagamento {
+	position: absolute;
+	box-shadow:  black 0px 2px 8px;
+	width: 400px;
+	height: 400px;
+	margin-top: 5%;
+	margin-left: 60%;
+}
+
+#valor {
+	position: absolute;
+	background-color: blueviolet;
+}

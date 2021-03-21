@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font: 20px arial;
+}
+
+body {
+    background-color: rgb(179, 0, 0);
+}
+
+.pesquisa {
+    margin: auto;
+}
+
+#texto {
+    color: black;
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+#texto:focus {
+    border: 2px black;
+}
+
+nav {
+    background-color:rgb(0, 0, 0);
+    width: 350px;
+    height: 700px;
+    left: -400px;
+    position: absolute;
+    transition: all 0.5s;
+    box-shadow: black 4px 6px 10px;
+}
+
+a {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 20px 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: rgb(179, 0, 0);
+    color:black;
+}
+
+ul { 
+    list-style: none;
+    position: absolute;
+    top: 80px;
+    width: 100% ;
+}
+
+input[type="checkbox"] {
+    display: none;
+    position: relative;
+    left: -600px;
+
+    background-color: blue;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(350px);
+}
+
+label {
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+    left: -630px;
+    top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font: 60px arial;
+    color: rgb(245, 229, 4);
+    
+}
+
+h2 {
+    text-align: center;
+    font: 40px arial;
+    color: white;
+}
+
+h3 {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    text-transform:uppercase;
+}
+
+img#menu {
+    background-color: rgb(179, 0, 0);
+    width: 50px;
+    position: relative;
+    top: 60px;
+    left: -180px;
+    padding: 10px;
+}
+
+div#interface { 
+ background-color: black;
+ position: relative;
+ top: 0px;
+ width: 800px;
+ margin: auto;
+ text-align: left;
+ padding: 40px;
+ box-shadow: black 4px 6px 10px;
+ 
+}
+
+p {
+    text-align: left;
+}
+
+img#nbb {
+    position: relative;
+    bottom: 2400px;
+    left: 650px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: black 4px 6px 10px;
+}
+
+img#pdf {
+    width: 50px;
+}
+
+p#material {
+    text-transform: lowercase;
+    text-align: center;
+}
